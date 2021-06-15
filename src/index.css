@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+  background-color: #565387 !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: white !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.navbar a:hover {
+  color: #fff !important;
+  /* #3498db */
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.9rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+/* Main */
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 3vw;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+  margin-top: 1vw;
+}
+
+#header .btn-get-started:hover {
+  background: #3498db;
+  color: #fff;
+}
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  1000% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Contact */
+.contact-div {
+  width: 100%;
+  height: 75vh;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive Code   */
+
+
+.lorem100 {
+  font-size: 3vw;
+}
+
+.aboutBody {
+  background: #e3edf7;
+}
+.follow {
+  font-size: 2vw;
+  color: rgb(89, 0, 255);
+}
+.social-media a {
+  display: flex;
+  background: #e3edf7;
+  height: 7vw;
+  width: 7vw;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+.social-media a i {
+  font-size: 3vw;
+  color: #777;
+  transition: transform 0.5s;
+}
+.social-media a:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    inset -0.5px -0.5px 0 rgba(255, 255, 255, 1),
+    inset -0.5px -0.5px 0 rgba(0, 0, 0, 0.15),
+    inset 0px 12px 12px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(2px);
+}
+.social-media a:hover i {
+  transform: scale(0.9);
+}
+a:hover .fa-facebook {
+  color: #3b5998;
+}
+a:hover .fa-whatsapp {
+  color: #4fce5d;
+}
+a:hover .fa-twitter {
+  color: #00acee;
+}
+a:hover .fa-instagram {
+  color: #f14843;
+}
+a:hover .fa-youtube {
+  color: #f00;
+}
+.rtd,
+.rtd1 {
+  text-decoration: none;
+  font-weight: bold;
+}
+.rtd1 {
+  color: crimson;
+}
+
+.card-body{
+  background-color: rgb(26, 23, 23);
+  color: white;
+}
+.card{
+  border: 3px solid #000;
+  transition: transform 0.5s;
+  border-radius: 10px;
+}
+.card:hover{
+  transform: translateY(-1vw);
+
+}
+.card:hover .card-body{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+
+}
+/* .card:hover .card-body{
+  transform: rotateY(180deg);
+
+} */
+.card-title{
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+/* home */
+
+.introHi h1{
+  font-size: 2 rem;
+  padding : 4vw 0 0 4vw;
+}
+.wdSpan{
+  color: crimson !important;
+}
+.btn-successs{
+  font-size: 2 rem;
+  margin : 4vw 0 0 4vw;
+  border-radius: 2vw;
+  background: blue;
+  color: #ffffff;
+}
+.btn-successs:hover{
+  background: #fff;
+  color: blue;
+  border: .2vw solid blue;
+}
+
+.aboutBody{
+  margin-top: 1vw;
+}
+
+.familiarWith, .viewProjects, .viewMyProfile{
+  margin-top: 1.5vw;
+}
+.socialMedia{
+  margin: 1.5vw auto;
+}
+
+.familiarWithLi{
+  color: rgb(41, 180, 41);
+}
+
+.educationBody{
+  margin-top: 3vw;
+  font-size: 1.5vw;
+}
+.eduNow{
+  color: #000;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.others{
+  background-color: #e3edf7;
+  padding-bottom: 10vw;
+  /* opacity: 0.8; */
+  font-family: "Times New Roman", Times, serif !important;
+}
+.hp{
+  color: crimson;
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin-bottom: 1.5vw;
+}

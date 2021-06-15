@@ -2,7 +2,7 @@ import tt from '../src/images/tt.jpg';
 import pubg from '../src/images/pubg3.jpg';
 import fl from '../src/images/fl.jpg';
 import puzzle from '../src/images/puzzle.jpg';
-import thriller from '../src/images/tt.jpg';
+import thriller from '../src/images/movie1.jpg';
 import gardening from '../src/images/gardening.jpg';
 
 const Sdata = [
